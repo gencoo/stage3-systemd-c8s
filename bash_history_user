@@ -1,0 +1,25 @@
+hostnamectl set-hostname gencoo
+sudo emerge --ask app-portage/gentoolkit ntfs3g libXScrnSaver repoman fuse proxychains app-i18n/kcm-fcitx kde-plasma/kdeplasma-addons spectacle
+ln -s /etc/portage ~/portage
+ln -s /var/db/repos ~/repos
+sudo mv /usr/lib/firmware/{intel,i915} /usr/lib/
+sudo mv /usr/lib/{intel,i915} /usr/lib/firmware/
+sudo systemctl mask plymouth-quit-wait.service systemd-udev-settle.service
+sudo cp ~/Documents/brave-browser.desktop /usr/share/applications/
+lsblk -f
+qlist -IRv
+sudo systemctl restart sddm
+systemd-analyze blame
+sudo locale-gen
+sudo eclean-pkg
+sudo eclean -d distfiles
+sudo dispatch-conf
+sudo emerge @preserved-rebuild
+sudo emerge --depclean && revdep-rebuild
+sudo proxychains emerge --ask brave-bin
+sudo emerge --update --newuse --deep --with-bdeps=y @world
+sudo emerge --sync
+sudo emerge --ask --verbose --update --deep --newuse @world
+sudo mount /dev/sda4 /mnt/ && sudo mount -t tmpfs -o size=14G tmpfs /var/tmp/portage
+sudo poweroff
+sensors
