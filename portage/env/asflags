@@ -1,0 +1,1 @@
+ASFLAGS="-g -Wa,--generate-missing-build-notes=yes"

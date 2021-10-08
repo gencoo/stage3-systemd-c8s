@@ -1,0 +1,19 @@
+app-crypt/pinentry -*
+app-misc/tracker -miners
+app-misc/tracker-miners -*
+app-text/evince gstreamer -tiff
+dev-db/sqlite -icu
+dev-lang/yasm -nls
+dev-libs/cyrus-sasl -berkdb -gdbm
+dev-python/PyQt5 -dbus -multimedia -printsupport  -svg -ssl
+dev-qt/qtprintsupport -cupsk
+dev-vcs/git -blksha1 -iconv -nls -perl threads -webdav
+gnome-base/gnome-shell -browser-extension -bluetooth
+gnome-base/nautilus gstreamer
+media-libs/gst-plugins-base -ogg -orc -pango -theora -vorbis
+media-libs/mesa -gallium -llvm -zstd wayland
+media-sound/mpg123 -sdl
+net-libs/webkit-gtk -geolocation -jpeg2k -jumbo-build -libnotify -opengl -spell -egl -gnome-keyring -seccomp -systemd 
+net-misc/networkmanager -ppp -bluetooth -wext
+net-print/cups-filters -pdf
+x11-libs/gtk+ -colord -cups

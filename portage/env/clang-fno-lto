@@ -1,0 +1,8 @@
+CC="clang"                            
+CXX="clang++"                         
+CFLAGS="-m64 -march=native -mtune=native -O2 -pipe -fomit-frame-pointer -fno-stack-protector -finline-functions -fno-math-errno -fno-trapping-math -fno-lto"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="${CFLAGS} -Wl,-O2 -Wl,--as-needed -Wl,--hash-style=gnu -Wl,--sort-common"
+AR="llvm-ar"
+NM="llvm-nm"
+RANLIB="llvm-ranlib"

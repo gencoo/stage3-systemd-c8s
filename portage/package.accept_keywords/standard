@@ -1,0 +1,3 @@
+# required for using netease-cloud-music
+dev-qt/qcef ~amd64
+media-sound/netease-cloud-music ~amd64

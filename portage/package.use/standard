@@ -1,0 +1,70 @@
+*/* python_targets_python3_8 python_single_target_python3_8 -python_targets_python3_9 -python_single_target_python3_9
+app-arch/libarchive -iconv acl lz4 lzo
+app-arch/rpm python lua -openmp -dbus -nls caps lua_single_target_lua5-3
+app-arch/tar -acl -nls
+app-crypt/gnupg -* ssl
+app-emulation/xen efi
+app-emulation/xen-tools -ipxe -pam -rombios system-seabios python sdl qemu
+app-emulation/qemu gnutls spice smartcard sasl usbredir usb virtfs -bzip2 -jpeg -ncurses -sdl -vnc -png
+app-portage/layman sync-plugin-portage git
+dev-lang/python -bluetooth
+dev-libs/glib -mime utils
+dev-libs/libpcre jit readline unicode
+dev-libs/libpcre2 -bzip2 -readline -zlib 
+dev-qt/qtcore icu
+dev-qt/qtgui eglfs
+dev-qt/qtsql -mysql
+dev-qt/qtwebsockets -ssl
+media-libs/freetype png
+media-libs/libcanberra -gstreamer -gtk 
+media-libs/libglvnd X
+media-libs/libmetalink -xml
+media-libs/libsdl2 -wayland
+media-sound/pulseaudio -gtk -tcpd -ipv6 -bluetooth
+app-i18n/ibus -nls
+
+>=net-fs/cifs-utils-6.11
+>=net-libs/http-parser-2.9.4-r1
+>=dev-libs/cyrus-sasl-2.1.27-r5 kerberos
+# required by sys-auth/sssd (argument)
+>=net-dns/bind-tools-9.16.15 gssapi
+# required by sys-auth/sssd (argument)
+>=net-nds/openldap-2.4.46-r16 sasl
+
+media-video/vlc pulseaudio -X -a52 -mad -dts -dvbpsi -dvd  -gcrypt -gnome-keyring -gstreamer -libsamplerate -mpeg -ncurses -qt5 -ssl -svg -udev -vorbis -wayland -x264 -xml
+net-misc/openssh -pie
+#sys-kernel/rhel-kernel savedconfig -initramfs -modules -zipmodules
+dev-libs/nss utils
+net-misc/wget cookie_check ntlm
+net-nds/openldap -tcpd
+sys-apps/dbus user-session
+sys-apps/systemd xkb selinux lzma importd audit elfutils cryptsetup qrcode -http idn nat curl tpm 
+sys-devel/binutils multitarget plugins
+sys-libs/binutils-libs multitarget
+sys-devel/gcc lto pgo graphite -nptl -nls -fortran openmp vtv
+sys-devel/annobin plugin_rebuild clang
+sys-devel/llvm gold
+sys-libs/libblockdev loop swap
+sys-libs/libselinux pcre2 python
+x11-base/xorg-server wayland
+x11-libs/cairo X
+# required by sys-boot/plymouth-0.9.5-r1::gentoo[libkms]
+# required by sys-boot/plymouth (argument)
+>=x11-libs/libdrm-2.4.106-r2 libkms
+# required by kde-apps/ark-21.04.3::gentoo
+# required by kde-apps/ark (argument)
+>=app-arch/libarchive-3.3.3-r1 zlib lzma
+# required by app-arch/libarchive-3.3.3-r1::gentoo[lzma]
+# required by kde-apps/ark-21.04.3::gentoo
+# required by kde-apps/ark (argument)
+>=app-arch/xz-utils-5.2.4-r3 -threads
+# required by app-emulation/libvirt-7.3.0::gentoo[virt-network]
+# required by libvirt (argument)
+>=net-dns/dnsmasq-2.85-r2 script ipv6
+# required by app-emulation/libvirt-7.3.0::gentoo[virt-network]
+dev-python/pyudev -qt5
+# required by libvirt (argument)
+>=net-firewall/iptables-1.8.4-r19 ipv6
+# required by app-emulation/virt-manager-3.2.0::gentoo[gtk]
+# required by virt-manager (argument)
+>=net-misc/spice-gtk-0.37-r2 usbredir
