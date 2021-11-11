@@ -221,7 +221,7 @@
 >=sys-process/procps-3.3.17
 >=sys-process/psmisc-23.4-r1
 #>=virtual/dist-kernel-5.4.142
->=www-client/firefox-bin-90
+>=www-client/firefox-bin-93.0
 >=x11-apps/xinit-1.4.1
 >=x11-apps/xkbcomp-1.4.5
 >=x11-base/xcb-proto-1.14.1
