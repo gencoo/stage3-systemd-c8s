@@ -177,7 +177,7 @@
 >=sys-apps/util-linux-2.36.2
 >=sys-auth/polkit-0.118-r2
 >=sys-block/parted-3.4
->=sys-block/thin-provisioning-tools-0.9.0
+>=sys-block/thin-provisioning-tools-0.9.1
 >=sys-boot/efibootmgr-17
 >=sys-boot/gnu-efi-3.0.11
 >=sys-devel/autoconf-2.71
