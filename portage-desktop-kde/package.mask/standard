@@ -88,8 +88,8 @@
 >=dev-libs/mpc-1.2.1
 >=dev-libs/nettle-3.7.2
 >=dev-libs/npth-1.6-r1
->=dev-libs/nspr-4.30
->=dev-libs/nss-3.63.1-r1
+>=dev-libs/nspr-4.33
+>=dev-libs/nss-3.68
 >=dev-libs/userspace-rcu-0.12.2
 >=dev-python/libvirt-python-7.0.0
 >=dev-util/cmake-3.20.4
@@ -97,7 +97,7 @@
 >=dev-util/glib-utils-2.68.2
 >=dev-util/gtk-doc-1.33.2
 >=dev-util/gtk-doc-am-1.33.2
->=dev-util/meson-0.57.2
+>=dev-util/meson-0.59
 >=dev-util/ninja-1.10.0
 >=dev-util/pkgconf-1.6.3
 >=gnome-base/librsvg-2.50.7
