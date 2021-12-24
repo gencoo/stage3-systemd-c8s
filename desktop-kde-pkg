@@ -36,7 +36,7 @@ dev-util/gtk-doc
 media-libs/alsa-lib
 media-libs/fontconfig
 media-libs/lcms
-media-libs/libepoxy-
+media-libs/libepoxy
 media-libs/libglvnd
 media-libs/libjpeg-turbo
 media-libs/mesa
@@ -46,7 +46,6 @@ x11-base/xcb-proto
 x11-base/xorg-server
 x11-libs/gtk+-3.22
 x11-libs/libdrm
-x11-libs/libfontenc
 x11-libs/libfontenc
 x11-libs/libXau
 x11-libs/libXext
@@ -59,10 +58,12 @@ x11-misc/xkeyboard-config
 x11-themes/adwaita-icon-theme
 ####################
 
+####backports fc35######
+app-i18n/fcitx-libpinyin
+
 ####backports c9s######
 app-accessibility/at-spi2-atk
 app-accessibility/at-spi2-core
-app-i18n/fcitx-libpinyin
 app-i18n/libpinyin
 app-text/docbook-xsl-ns-stylesheets
 app-text/ghostscript-gpl
@@ -91,7 +92,7 @@ gnome-base/gsettings-desktop-schemas
 media-gfx/exiv2
 media-gfx/graphite2
 media-libs/a52dec
-media-libs/flac-
+media-libs/flac
 media-libs/giflib
 media-libs/harfbuzz
 media-libs/jbig2dec
