@@ -43,6 +43,7 @@ dev-perl/Text-CharWidth
 dev-perl/Text-Unidecode
 dev-perl/Text-WrapI18N
 dev-perl/Tie-IxHash
+dev-perl/TimeDate
 dev-perl/Try-Tiny
 dev-perl/Unicode-EastAsianWidth
 dev-perl/Unicode-LineBreak
