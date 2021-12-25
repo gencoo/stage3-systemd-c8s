@@ -1,7 +1,7 @@
 app-emulation/libcacard
 app-emulation/libvirt
 app-emulation/libvirt-glib
-app-emulation/qemu-
+app-emulation/qemu
 app-emulation/spice
 app-emulation/spice-protocol
 app-emulation/virt-manager
@@ -15,7 +15,7 @@ media-libs/gst-plugins-good
 media-libs/gstreamer
 net-libs/gtk-vnc
 net-libs/libslirp
-net-misc/radvd-
+net-misc/radvd
 net-misc/spice-gtk
 sys-apps/dtc
 sys-apps/osinfo-db-tools
