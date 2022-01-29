@@ -136,6 +136,7 @@
 >=net-libs/libtirpc-1.3.2
 >=net-libs/rpcsvc-proto-1.4.2
 >=net-misc/curl-7.77.0-r1
+>=net-misc/dhcp-4.4.2
 >=net-misc/ipcalc-0.42_p2
 >=net-misc/iputils-20210202
 >=net-misc/modemmanager-1.19
