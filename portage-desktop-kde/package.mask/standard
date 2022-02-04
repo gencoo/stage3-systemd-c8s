@@ -189,7 +189,7 @@
 >=sys-devel/m4-1.4.19
 >=sys-devel/make-4.3
 >=sys-firmware/seabios-1.14.0
->=sys-fs/cryptsetup-2.3.4-r1
+>=sys-fs/cryptsetup-2.4.3
 >=sys-fs/e2fsprogs-1.45.7
 >=sys-fs/fuse-2.9.9-r1
 >=sys-fs/lvm2-2.04.12
