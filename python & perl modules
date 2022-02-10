@@ -53,6 +53,7 @@ dev-perl/XML-Twig
 dev-perl/XML-XPath
 dev-perl/YAML-Tiny
 
+dev-python/argcomplete
 dev-python/attrs
 dev-python/Babel
 dev-python/cffi

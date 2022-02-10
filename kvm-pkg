@@ -9,6 +9,7 @@ app-misc/scrub
 dev-libs/libdaemon
 dev-libs/userspace-rcu
 dev-libs/yajl
+dev-python/argcomplete
 dev-python/libvirt-python
 media-libs/gst-plugins-base
 media-libs/gst-plugins-good
@@ -18,6 +19,7 @@ net-libs/libslirp
 net-misc/radvd
 net-misc/spice-gtk
 sys-apps/dtc
+sys-apps/hwdata
 sys-apps/osinfo-db-tools
 sys-apps/pcsc-lite
 sys-apps/usbredir

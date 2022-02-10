@@ -1,3 +1,4 @@
+>=dev-python/argcomplete-1.12.3
 >=dev-python/cython-0.29.23
 >=dev-python/decorator-5.0.9
 >=dev-python/docutils-0.17.1

@@ -29,11 +29,11 @@
 >=app-crypt/gpgme-1.14.0
 >=app-crypt/mit-krb5-1.19.2
 >=app-crypt/tpm2-tss-2.4.5
->=app-emulation/libvirt-7.0.0
+>=app-emulation/libvirt-8.0.1
 >=app-emulation/libvirt-glib-4.0.0
->=app-emulation/qemu-6.0.0
+>=app-emulation/qemu-6.2.1
 >=app-emulation/spice-protocol-0.14.3
->=app-emulation/virt-manager-3.1.0
+>=app-emulation/virt-manager-3.2.2
 >=app-misc/scrub-2.6.1
 >=app-text/poppler-21.07.0
 >=app-text/poppler-data-0.4.10
@@ -90,7 +90,7 @@
 >=dev-libs/nspr-4.33
 >=dev-libs/nss-3.68
 >=dev-libs/userspace-rcu-0.12.2
->=dev-python/libvirt-python-7.0.0
+>=dev-python/libvirt-python-8.0.1
 >=dev-util/cmake-3.20.4
 >=dev-util/desktop-file-utils-0.24
 >=dev-util/glib-utils-2.68.2
@@ -163,7 +163,7 @@
 >=sys-apps/keyutils-1.6.1
 >=sys-apps/kmod-28
 >=sys-apps/less-581.2
->=sys-apps/pcsc-lite-1.9.0
+>=sys-apps/pcsc-lite-1.9.6
 >=sys-apps/policycoreutils-3.1
 >=sys-apps/sed-4.8
 >=sys-apps/selinux-python-3.1
@@ -188,7 +188,7 @@
 >=sys-devel/gettext-0.21-r1
 >=sys-devel/m4-1.4.19
 >=sys-devel/make-4.3
->=sys-firmware/seabios-1.14.0
+>=sys-firmware/seabios-1.14.0-r2
 >=sys-fs/cryptsetup-2.4.3
 >=sys-fs/e2fsprogs-1.45.7
 >=sys-fs/fuse-2.9.9-r1
